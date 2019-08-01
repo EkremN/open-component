@@ -1,0 +1,26 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+ @import url("components/main.css");
+ @import url("components/aside.css");
+
+* {
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20em auto;
+    height: 100%;
+}
+

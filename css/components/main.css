@@ -1,0 +1,79 @@
+main i {
+    font-size: 1.2em;
+    color: #acb0bc;
+}
+
+[placeholder] {
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 1.3em;
+    color: #acb0bc;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: inherit;
+    justify-content: space-between
+}
+
+.header ul i {
+    margin-right: 25px;
+}
+
+.popular {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3em;
+}
+
+.popular div div {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.popular div p {
+    margin-left: 15px;
+}
+
+.may-like div {
+    background-color: #f9f9f9;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.av-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.may-like {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 3em;
+}
+
+.may-like div p {
+    text-align: center;
+}
+
+
+.main-content h1:last-of-type {
+    padding: 50px 0;
+}
